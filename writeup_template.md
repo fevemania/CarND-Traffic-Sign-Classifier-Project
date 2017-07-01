@@ -100,7 +100,7 @@ The grayscale images are then preprocessed with global or local contrast normali
 
 
 
-The result of pre-processing:
+The result of pre-processing: (The plotting style is inspired by [Alex Staravoitau](https://navoshta.com/traffic-signs-classification/]))
 
 ![grayscale][image5]
 
@@ -108,7 +108,7 @@ The result of pre-processing:
 
 + ####  Data Augmentation
 
-  - ##### Flipping
+  - ##### Flipping (This part is inspired by [Alex Staravoitau](https://navoshta.com/traffic-signs-classification/]))
 
     There are three kinds of flipping: horizontally flip, vertically flip, horizontally and vertically flip.
 
@@ -142,6 +142,8 @@ The result of pre-processing:
 + ####Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers: (**Note.** This model is multi-scale)
+
+This model is inspired by [Alex Staravoitau](https://navoshta.com/traffic-signs-classification/])
 
 |        Layer        |               Description                |
 | :-----------------: | :--------------------------------------: |
@@ -195,7 +197,7 @@ For early stopping, my stop criterion is to save the weighted combination wich m
 
 + ####Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-  ####
+  ​
 
 My final model results were:
 * training set accuracy of **100%**
