@@ -202,7 +202,7 @@ For early stopping, my stop criterion is to save the weighted combination wich m
 My final model results were:
 * training set accuracy of **100%**
 
-* validation set accuracy of **100%**
+* validation set accuracy of **98.9%** (early stopping keeps the highest validation accuracy during training, in the ipython notebook is at EPOCH 23.)
 
 * test set accuracy of **97.5%**
 
